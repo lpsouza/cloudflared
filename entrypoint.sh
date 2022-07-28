@@ -24,4 +24,4 @@ if [ "$#" -ne 0 ]; then
   exit 1
 fi
 
-cloudflared tunnel --config /root/.cloudflared/config.yaml run
+cloudflared tunnel --config /root/.cloudflared/config/config.yaml run
