@@ -17,6 +17,7 @@ on:
             - "**/.editorconfig"
             - "**/.gitignore"
             - ".vscode/*"
+    workflow_dispatch:
 
 jobs:
     build_and_publish:
