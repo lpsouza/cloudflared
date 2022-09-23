@@ -41,8 +41,8 @@ This json file must be created by the Cloudflare tunnel creation process.
 ### Create a new tunnel
 
 ```bash
-docker run --rm -ti -v $PWD/cf:/root/.cloudflared test tunnel login
-docker run --rm -ti -v $PWD/cf:/root/.cloudflared test tunnel create TUNNEL_NAME
+docker run --rm -ti -v $PWD/cf:/root/.cloudflared lpsouza/cloudflared tunnel login
+docker run --rm -ti -v $PWD/cf:/root/.cloudflared lpsouza/cloudflared tunnel create TUNNEL_NAME
 ```
 
 This two commands will create a new tunnel and will store the credentials on the folder `$PWD/cf` in the `TUNNEL_ID.json` file. The `TUNNEL_ID` format is a GUID.
