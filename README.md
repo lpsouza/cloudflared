@@ -1,5 +1,7 @@
 # Cloudflared
 
+**IMPORTANT**: Starting from version 2201.8.x of [the official](https://hub.docker.com/r/cloudflare/cloudflared/) Cloudflared docker distribution, multiple processor architecture is supported. As a result, this repository is now archived.
+
 Image docker for expose local services to the internet using Cloudflare like a reverse proxy.
 
 DISCLAIMER: Why do you need use this image if you can use [the official one](https://hub.docker.com/r/cloudflare/cloudflared/)? Well, the official image is not thinked to multiple processor architecture. So, this image is designed to work with amd64 and arm64 architectures.
